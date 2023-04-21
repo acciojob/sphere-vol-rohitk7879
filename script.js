@@ -3,7 +3,7 @@ function volume_sphere(event) {
 	event.preventDefault();
     //Write your code here
 	const radius = document.getElementById("radius").value
-	let formula =1.33*3.14*(radius*radius*radius);
+	let formula =(4/3)*3.142857*(radius*radius*radius);
 	document.getElementById("volume").value = Number(formula).toFixed(4)
   // console.log(formula)
 } 
